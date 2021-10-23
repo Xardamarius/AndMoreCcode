@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1632548358 source:c:\users\1\desktop\c++ code\c\les1\prog2\prog2_3\lesson 32\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

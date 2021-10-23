@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1630437069 source:c:\users\1\desktop\c++ code\c\les1\prog2\prog2_3\game2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+	<math.h>
+
