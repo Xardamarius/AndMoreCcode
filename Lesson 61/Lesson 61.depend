@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1634988663 source:c:\users\1\desktop\c++ code\c\les1\prog2\prog2_3\lesson 61\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

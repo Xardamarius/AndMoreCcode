@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Spt {
+    int x,y;
+} TPoint;
+
+int main()
+{
+    TPoint *p = NULL;
+    p = malloc( sizeof(TPoint) );
+
+    *f = 3.14;
+    printf("%f", *f);
+    return 0;
+}
