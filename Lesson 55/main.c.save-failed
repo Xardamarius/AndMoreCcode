@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+int main()
+{
+    unsigned int a = 0xf0ffffff;
+    if (a & (1 << (sizeof(a)*8-1) ) )
+        printf("%x\n", a);
+
+    return 0;
+}
+
+/*
+int main()
+{
+    unsigned int a = 0xf0ffffff;
+    if (a & (1 << (sizeof(a)*8-1) ) )
+        printf("%x\n", a);
+
+    return 0;
+}
+*/
+/*
+int main()
+{
+    unsigned char a = 0x7A;
+    if (a & 0x80)
+        printf("%x\n", a);
+
+    return 0;
+}
+*/
+/*
+int main()
+{
+    unsigned char a = 0xAA;
+    a = a & 0x0f;
+    printf("%x\n", a);
+
+    unsigned char b = 0xAA;
+    b = b | 0x0f;
+    printf("%x\n", b);
+
+    unsigned short c = (b << 8) | a;
+    printf("%x\n", c);
+
+    return 0;
+}
+*/
